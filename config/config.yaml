@@ -1,0 +1,10 @@
+server:
+  port: 7070
+database:
+  host: postgres
+  db: test
+  user: messagio
+  password: messagio
+kafka:
+  url: [kafka:9092]
+  topic: messages 
